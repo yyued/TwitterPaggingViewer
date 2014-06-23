@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>92759870-B7C9-4800-B09B-3D41D750752B</string>
+	<string>E6981EFF-D5A2-47F6-8EC2-74F9972E99E5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>XHTwitterPaggingViewerExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>44FB824A-E93C-4AE5-A8AC-1B3A6D961DC5</key>
-		<string>https://github.com/duowan/TwitterPaggingViewer.git</string>
+		<key>1EB8E5C2-54D7-42D0-91EF-2E8C2FECD469</key>
+		<string>https://github.com/xhzengAIB/TwitterPaggingViewer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Example/XHTwitterPaggingViewerExample.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>44FB824A-E93C-4AE5-A8AC-1B3A6D961DC5</key>
+		<key>1EB8E5C2-54D7-42D0-91EF-2E8C2FECD469</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/duowan/TwitterPaggingViewer.git</string>
+	<string>https://github.com/xhzengAIB/TwitterPaggingViewer.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>44FB824A-E93C-4AE5-A8AC-1B3A6D961DC5</string>
+	<string>1EB8E5C2-54D7-42D0-91EF-2E8C2FECD469</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>44FB824A-E93C-4AE5-A8AC-1B3A6D961DC5</string>
+			<string>1EB8E5C2-54D7-42D0-91EF-2E8C2FECD469</string>
 			<key>IDESourceControlWCCName</key>
-			<string>XHTwitterPaggingViewer</string>
+			<string>TwitterPaggingViewer</string>
 		</dict>
 	</array>
 </dict>
