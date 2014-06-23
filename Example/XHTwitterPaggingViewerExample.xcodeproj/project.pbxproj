@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABFA6824195510C800335010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA6823195510C800335010 /* Foundation.framework */; };
+		ABFA6826195510C800335010 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA6825195510C800335010 /* CoreGraphics.framework */; };
+		ABFA6828195510C800335010 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA6827195510C800335010 /* UIKit.framework */; };
+		ABFA682E195510C800335010 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABFA682C195510C800335010 /* InfoPlist.strings */; };
+		ABFA6830195510C800335010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA682F195510C800335010 /* main.m */; };
+		ABFA6834195510C800335010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA6833195510C800335010 /* AppDelegate.m */; };
+		ABFA6836195510C800335010 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFA6835195510C800335010 /* Images.xcassets */; };
+		ABFA683D195510C800335010 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA683C195510C800335010 /* XCTest.framework */; };
+		ABFA683E195510C800335010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA6823195510C800335010 /* Foundation.framework */; };
+		ABFA683F195510C800335010 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA6827195510C800335010 /* UIKit.framework */; };
+		ABFA6847195510C800335010 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABFA6845195510C800335010 /* InfoPlist.strings */; };
+		ABFA6849195510C800335010 /* XHTwitterPaggingViewerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA6848195510C800335010 /* XHTwitterPaggingViewerExampleTests.m */; };
+		ABFA6858195510F900335010 /* XHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA6853195510F900335010 /* XHBaseTableViewController.m */; };
+		ABFA6859195510F900335010 /* XHFoundationCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA6855195510F900335010 /* XHFoundationCommon.m */; };
+		ABFA685A195510F900335010 /* XHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA6857195510F900335010 /* XHTableViewController.m */; };
+		ABFA68671955115100335010 /* XHPaggingNavbar.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA68641955115100335010 /* XHPaggingNavbar.m */; };
+		ABFA68681955115100335010 /* XHTwitterPaggingViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA68661955115100335010 /* XHTwitterPaggingViewer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABFA6840195510C800335010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABFA6818195510C800335010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFA681F195510C800335010;
+			remoteInfo = XHTwitterPaggingViewerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABFA6820195510C800335010 /* XHTwitterPaggingViewerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHTwitterPaggingViewerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFA6823195510C800335010 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABFA6825195510C800335010 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABFA6827195510C800335010 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABFA682B195510C800335010 /* XHTwitterPaggingViewerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHTwitterPaggingViewerExample-Info.plist"; sourceTree = "<group>"; };
+		ABFA682D195510C800335010 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABFA682F195510C800335010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABFA6831195510C800335010 /* XHTwitterPaggingViewerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XHTwitterPaggingViewerExample-Prefix.pch"; sourceTree = "<group>"; };
+		ABFA6832195510C800335010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABFA6833195510C800335010 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABFA6835195510C800335010 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABFA683B195510C800335010 /* XHTwitterPaggingViewerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHTwitterPaggingViewerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFA683C195510C800335010 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABFA6844195510C800335010 /* XHTwitterPaggingViewerExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHTwitterPaggingViewerExampleTests-Info.plist"; sourceTree = "<group>"; };
+		ABFA6846195510C800335010 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABFA6848195510C800335010 /* XHTwitterPaggingViewerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHTwitterPaggingViewerExampleTests.m; sourceTree = "<group>"; };
+		ABFA6852195510F900335010 /* XHBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBaseTableViewController.h; sourceTree = "<group>"; };
+		ABFA6853195510F900335010 /* XHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBaseTableViewController.m; sourceTree = "<group>"; };
+		ABFA6854195510F900335010 /* XHFoundationCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFoundationCommon.h; sourceTree = "<group>"; };
+		ABFA6855195510F900335010 /* XHFoundationCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFoundationCommon.m; sourceTree = "<group>"; };
+		ABFA6856195510F900335010 /* XHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTableViewController.h; sourceTree = "<group>"; };
+		ABFA6857195510F900335010 /* XHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTableViewController.m; sourceTree = "<group>"; };
+		ABFA68631955115100335010 /* XHPaggingNavbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPaggingNavbar.h; sourceTree = "<group>"; };
+		ABFA68641955115100335010 /* XHPaggingNavbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPaggingNavbar.m; sourceTree = "<group>"; };
+		ABFA68651955115100335010 /* XHTwitterPaggingViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTwitterPaggingViewer.h; sourceTree = "<group>"; };
+		ABFA68661955115100335010 /* XHTwitterPaggingViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTwitterPaggingViewer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABFA681D195510C800335010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFA6826195510C800335010 /* CoreGraphics.framework in Frameworks */,
+				ABFA6828195510C800335010 /* UIKit.framework in Frameworks */,
+				ABFA6824195510C800335010 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFA6838195510C800335010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFA683D195510C800335010 /* XCTest.framework in Frameworks */,
+				ABFA683F195510C800335010 /* UIKit.framework in Frameworks */,
+				ABFA683E195510C800335010 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABFA6817195510C800335010 = {
+			isa = PBXGroup;
+			children = (
+				ABFA68621955115100335010 /* XHTwitterPaggingViewer */,
+				ABFA6829195510C800335010 /* XHTwitterPaggingViewerExample */,
+				ABFA6842195510C800335010 /* XHTwitterPaggingViewerExampleTests */,
+				ABFA6822195510C800335010 /* Frameworks */,
+				ABFA6821195510C800335010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABFA6821195510C800335010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA6820195510C800335010 /* XHTwitterPaggingViewerExample.app */,
+				ABFA683B195510C800335010 /* XHTwitterPaggingViewerExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABFA6822195510C800335010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA6823195510C800335010 /* Foundation.framework */,
+				ABFA6825195510C800335010 /* CoreGraphics.framework */,
+				ABFA6827195510C800335010 /* UIKit.framework */,
+				ABFA683C195510C800335010 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABFA6829195510C800335010 /* XHTwitterPaggingViewerExample */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA6832195510C800335010 /* AppDelegate.h */,
+				ABFA6833195510C800335010 /* AppDelegate.m */,
+				ABFA6852195510F900335010 /* XHBaseTableViewController.h */,
+				ABFA6853195510F900335010 /* XHBaseTableViewController.m */,
+				ABFA6854195510F900335010 /* XHFoundationCommon.h */,
+				ABFA6855195510F900335010 /* XHFoundationCommon.m */,
+				ABFA6856195510F900335010 /* XHTableViewController.h */,
+				ABFA6857195510F900335010 /* XHTableViewController.m */,
+				ABFA6835195510C800335010 /* Images.xcassets */,
+				ABFA682A195510C800335010 /* Supporting Files */,
+			);
+			path = XHTwitterPaggingViewerExample;
+			sourceTree = "<group>";
+		};
+		ABFA682A195510C800335010 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA682B195510C800335010 /* XHTwitterPaggingViewerExample-Info.plist */,
+				ABFA682C195510C800335010 /* InfoPlist.strings */,
+				ABFA682F195510C800335010 /* main.m */,
+				ABFA6831195510C800335010 /* XHTwitterPaggingViewerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABFA6842195510C800335010 /* XHTwitterPaggingViewerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA6848195510C800335010 /* XHTwitterPaggingViewerExampleTests.m */,
+				ABFA6843195510C800335010 /* Supporting Files */,
+			);
+			path = XHTwitterPaggingViewerExampleTests;
+			sourceTree = "<group>";
+		};
+		ABFA6843195510C800335010 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA6844195510C800335010 /* XHTwitterPaggingViewerExampleTests-Info.plist */,
+				ABFA6845195510C800335010 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABFA68621955115100335010 /* XHTwitterPaggingViewer */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA68631955115100335010 /* XHPaggingNavbar.h */,
+				ABFA68641955115100335010 /* XHPaggingNavbar.m */,
+				ABFA68651955115100335010 /* XHTwitterPaggingViewer.h */,
+				ABFA68661955115100335010 /* XHTwitterPaggingViewer.m */,
+			);
+			name = XHTwitterPaggingViewer;
+			path = ../XHTwitterPaggingViewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABFA681F195510C800335010 /* XHTwitterPaggingViewerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFA684C195510C800335010 /* Build configuration list for PBXNativeTarget "XHTwitterPaggingViewerExample" */;
+			buildPhases = (
+				ABFA681C195510C800335010 /* Sources */,
+				ABFA681D195510C800335010 /* Frameworks */,
+				ABFA681E195510C800335010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHTwitterPaggingViewerExample;
+			productName = XHTwitterPaggingViewerExample;
+			productReference = ABFA6820195510C800335010 /* XHTwitterPaggingViewerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABFA683A195510C800335010 /* XHTwitterPaggingViewerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFA684F195510C800335010 /* Build configuration list for PBXNativeTarget "XHTwitterPaggingViewerExampleTests" */;
+			buildPhases = (
+				ABFA6837195510C800335010 /* Sources */,
+				ABFA6838195510C800335010 /* Frameworks */,
+				ABFA6839195510C800335010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFA6841195510C800335010 /* PBXTargetDependency */,
+			);
+			name = XHTwitterPaggingViewerExampleTests;
+			productName = XHTwitterPaggingViewerExampleTests;
+			productReference = ABFA683B195510C800335010 /* XHTwitterPaggingViewerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABFA6818195510C800335010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "曾宪华 QQ群: (142557668) QQ:543413507  Gmail:xhzengAIB@gmail.com";
+				TargetAttributes = {
+					ABFA681F195510C800335010 = {
+						DevelopmentTeam = LQ7MF6J642;
+					};
+					ABFA683A195510C800335010 = {
+						TestTargetID = ABFA681F195510C800335010;
+					};
+				};
+			};
+			buildConfigurationList = ABFA681B195510C800335010 /* Build configuration list for PBXProject "XHTwitterPaggingViewerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABFA6817195510C800335010;
+			productRefGroup = ABFA6821195510C800335010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABFA681F195510C800335010 /* XHTwitterPaggingViewerExample */,
+				ABFA683A195510C800335010 /* XHTwitterPaggingViewerExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABFA681E195510C800335010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFA682E195510C800335010 /* InfoPlist.strings in Resources */,
+				ABFA6836195510C800335010 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFA6839195510C800335010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFA6847195510C800335010 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABFA681C195510C800335010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFA6858195510F900335010 /* XHBaseTableViewController.m in Sources */,
+				ABFA6834195510C800335010 /* AppDelegate.m in Sources */,
+				ABFA685A195510F900335010 /* XHTableViewController.m in Sources */,
+				ABFA6830195510C800335010 /* main.m in Sources */,
+				ABFA68681955115100335010 /* XHTwitterPaggingViewer.m in Sources */,
+				ABFA6859195510F900335010 /* XHFoundationCommon.m in Sources */,
+				ABFA68671955115100335010 /* XHPaggingNavbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFA6837195510C800335010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFA6849195510C800335010 /* XHTwitterPaggingViewerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABFA6841195510C800335010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFA681F195510C800335010 /* XHTwitterPaggingViewerExample */;
+			targetProxy = ABFA6840195510C800335010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABFA682C195510C800335010 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFA682D195510C800335010 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABFA6845195510C800335010 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFA6846195510C800335010 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABFA684A195510C800335010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABFA684B195510C800335010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABFA684D195510C800335010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHTwitterPaggingViewerExample/XHTwitterPaggingViewerExample-Prefix.pch";
+				INFOPLIST_FILE = "XHTwitterPaggingViewerExample/XHTwitterPaggingViewerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "09CE68E2-F150-4120-9E42-436377D9C09A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABFA684E195510C800335010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHTwitterPaggingViewerExample/XHTwitterPaggingViewerExample-Prefix.pch";
+				INFOPLIST_FILE = "XHTwitterPaggingViewerExample/XHTwitterPaggingViewerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "09CE68E2-F150-4120-9E42-436377D9C09A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABFA6850195510C800335010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XHTwitterPaggingViewerExample.app/XHTwitterPaggingViewerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHTwitterPaggingViewerExample/XHTwitterPaggingViewerExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XHTwitterPaggingViewerExampleTests/XHTwitterPaggingViewerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABFA6851195510C800335010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XHTwitterPaggingViewerExample.app/XHTwitterPaggingViewerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHTwitterPaggingViewerExample/XHTwitterPaggingViewerExample-Prefix.pch";
+				INFOPLIST_FILE = "XHTwitterPaggingViewerExampleTests/XHTwitterPaggingViewerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABFA681B195510C800335010 /* Build configuration list for PBXProject "XHTwitterPaggingViewerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFA684A195510C800335010 /* Debug */,
+				ABFA684B195510C800335010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFA684C195510C800335010 /* Build configuration list for PBXNativeTarget "XHTwitterPaggingViewerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFA684D195510C800335010 /* Debug */,
+				ABFA684E195510C800335010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFA684F195510C800335010 /* Build configuration list for PBXNativeTarget "XHTwitterPaggingViewerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFA6850195510C800335010 /* Debug */,
+				ABFA6851195510C800335010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABFA6818195510C800335010 /* Project object */;
+}
