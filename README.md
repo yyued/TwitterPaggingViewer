@@ -23,7 +23,7 @@ and run `pod install`, then you're all done!
 
 
 ## How to use
-Easy to drop into your project.                                
+Easy to drop into your project. 类似UITabBarController的用法，非常方便。                               
 ```objc
 
 XHTwitterPaggingViewer *twitterPaggingViewer = [[XHTwitterPaggingViewer alloc] init];
