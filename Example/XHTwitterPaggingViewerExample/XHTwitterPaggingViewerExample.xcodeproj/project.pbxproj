@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51920567B2C7409CB6CDC785 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F30D8D4EEFAD4E96A5E642A7 /* libPods.a */; };
+		7D093BB0196413DA00F563BD /* XHPullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D093BAF196413DA00F563BD /* XHPullRefreshTableViewController.m */; };
 		ABCFFB6A1963852800E7E72C /* XHPaggingNavbar.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB671963852800E7E72C /* XHPaggingNavbar.m */; };
 		ABCFFB6B1963852800E7E72C /* XHTwitterPaggingViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB691963852800E7E72C /* XHTwitterPaggingViewer.m */; };
 		ABFA6824195510C800335010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA6823195510C800335010 /* Foundation.framework */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D093BAE196413DA00F563BD /* XHPullRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPullRefreshTableViewController.h; sourceTree = "<group>"; };
+		7D093BAF196413DA00F563BD /* XHPullRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPullRefreshTableViewController.m; sourceTree = "<group>"; };
 		ABCFFB661963852800E7E72C /* XHPaggingNavbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPaggingNavbar.h; sourceTree = "<group>"; };
 		ABCFFB671963852800E7E72C /* XHPaggingNavbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPaggingNavbar.m; sourceTree = "<group>"; };
 		ABCFFB681963852800E7E72C /* XHTwitterPaggingViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTwitterPaggingViewer.h; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 		ABFA6855195510F900335010 /* XHFoundationCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFoundationCommon.m; sourceTree = "<group>"; };
 		ABFA6856195510F900335010 /* XHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTableViewController.h; sourceTree = "<group>"; };
 		ABFA6857195510F900335010 /* XHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTableViewController.m; sourceTree = "<group>"; };
+		BEB5BA9A4AFB4FCC91064867 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F30D8D4EEFAD4E96A5E642A7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,7 @@
 				ABFA6826195510C800335010 /* CoreGraphics.framework in Frameworks */,
 				ABFA6828195510C800335010 /* UIKit.framework in Frameworks */,
 				ABFA6824195510C800335010 /* Foundation.framework in Frameworks */,
+				51920567B2C7409CB6CDC785 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +116,7 @@
 				ABFA6842195510C800335010 /* XHTwitterPaggingViewerExampleTests */,
 				ABFA6822195510C800335010 /* Frameworks */,
 				ABFA6821195510C800335010 /* Products */,
+				BEB5BA9A4AFB4FCC91064867 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +136,7 @@
 				ABFA6825195510C800335010 /* CoreGraphics.framework */,
 				ABFA6827195510C800335010 /* UIKit.framework */,
 				ABFA683C195510C800335010 /* XCTest.framework */,
+				F30D8D4EEFAD4E96A5E642A7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,6 +150,8 @@
 				ABFA6853195510F900335010 /* XHBaseTableViewController.m */,
 				ABFA6854195510F900335010 /* XHFoundationCommon.h */,
 				ABFA6855195510F900335010 /* XHFoundationCommon.m */,
+				7D093BAE196413DA00F563BD /* XHPullRefreshTableViewController.h */,
+				7D093BAF196413DA00F563BD /* XHPullRefreshTableViewController.m */,
 				ABFA6856195510F900335010 /* XHTableViewController.h */,
 				ABFA6857195510F900335010 /* XHTableViewController.m */,
 				ABFA6835195510C800335010 /* Images.xcassets */,
@@ -185,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABFA684C195510C800335010 /* Build configuration list for PBXNativeTarget "XHTwitterPaggingViewerExample" */;
 			buildPhases = (
+				F42D08F26AC2471D82DADA14 /* Check Pods Manifest.lock */,
 				ABFA681C195510C800335010 /* Sources */,
 				ABFA681D195510C800335010 /* Frameworks */,
 				ABFA681E195510C800335010 /* Resources */,
+				8A10DC1E4E4A41838594C97C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,11 +284,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A10DC1E4E4A41838594C97C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42D08F26AC2471D82DADA14 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABFA681C195510C800335010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D093BB0196413DA00F563BD /* XHPullRefreshTableViewController.m in Sources */,
 				ABFA6858195510F900335010 /* XHBaseTableViewController.m in Sources */,
 				ABFA6834195510C800335010 /* AppDelegate.m in Sources */,
 				ABFA685A195510F900335010 /* XHTableViewController.m in Sources */,
@@ -398,6 +445,7 @@
 		};
 		ABFA684D195510C800335010 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB5BA9A4AFB4FCC91064867 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -414,6 +462,7 @@
 		};
 		ABFA684E195510C800335010 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB5BA9A4AFB4FCC91064867 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

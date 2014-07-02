@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3A4F79DF-F9EB-4FF7-B6FF-7FFF5715CD86</string>
+	<string>9BAF0C9C-A2C6-408C-AE55-C32D21C753B9</string>
 	<key>IDESourceControlProjectName</key>
-	<string>XHTwitterPaggingViewerStoryboradExample</string>
+	<string>XHTwitterPaggingViewerExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>01FC7A01-F564-4A12-805F-42881BD2EAE6</key>
 		<string>https://github.com/xhzengAIB/TwitterPaggingViewer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Example/XHTwitterPaggingViewerStoryboradExample/XHTwitterPaggingViewerStoryboradExample.xcodeproj/project.xcworkspace</string>
+	<string>Example/XHTwitterPaggingViewerExample/XHTwitterPaggingViewerExample.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>01FC7A01-F564-4A12-805F-42881BD2EAE6</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/xhzengAIB/TwitterPaggingViewer.git</string>

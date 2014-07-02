@@ -14,17 +14,39 @@
 
 @implementation XHTableViewController
 
-- (void)loadDataSource {
-    self.dataSource = (NSMutableArray *)@[@"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer."];
+- (void)loadDataSource {    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSMutableArray *dataSource = [[NSMutableArray alloc] initWithArray:@[@"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer.", @"A twitter like navigation bar, page viewer."]];
+        
+        NSMutableArray *indexPaths;
+        if (self.requestCurrentPage) {
+            indexPaths = [[NSMutableArray alloc] initWithCapacity:dataSource.count];
+            [dataSource enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+                [indexPaths addObject:[NSIndexPath indexPathForRow:self.dataSource.count + idx inSection:0]];
+            }];
+        }
+        sleep(1.5);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (self.requestCurrentPage) {
+                [self.dataSource addObjectsFromArray:dataSource];
+                [self.tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationNone];
+                [self endLoadMoreRefreshing];
+            } else {
+                self.dataSource = dataSource;
+                [self.tableView reloadData];
+                [self endPullDownRefreshing];
+            }
+        });
+    });
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self loadDataSource];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+    [self startPullDownRefreshing];
 }
 
 - (void)viewDidLoad {
