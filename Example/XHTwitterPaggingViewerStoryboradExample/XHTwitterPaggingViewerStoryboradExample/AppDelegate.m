@@ -21,10 +21,9 @@
     XHTwitterPaggingViewer *twitterPaggingViewer = (XHTwitterPaggingViewer *)navigationController.topViewController;
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
+    
     XHTableViewController *tableViewController1 = [storyboard instantiateViewControllerWithIdentifier:@"TableViewController1"];
-    tableViewController1.title = @"Home";
     XHTableViewController *tableViewController2 = [storyboard instantiateViewControllerWithIdentifier:@"TableViewController2"];
-    tableViewController2.title = @"News";
     
     twitterPaggingViewer.viewControllers = @[tableViewController1, tableViewController2];
     

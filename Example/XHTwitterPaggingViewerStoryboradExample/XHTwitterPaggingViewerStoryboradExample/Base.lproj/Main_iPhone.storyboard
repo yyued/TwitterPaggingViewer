@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="JUf-z6-ATx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="JUf-z6-ATx">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -21,9 +21,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pMO-5l-Nwm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="438" y="-67"/>
+            <point key="canvasLocation" x="-783" y="-28"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Table View Controller - Item-->
         <scene sceneID="F1O-6k-FeU">
             <objects>
                 <viewController storyboardIdentifier="TableViewController1" id="cCY-i9-K04" customClass="XHTableViewController" sceneMemberID="viewController">
@@ -36,13 +36,17 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="g0y-1k-TIB"/>
                     <navigationItem key="navigationItem" id="eIm-Tl-gV3"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Home"/>
+                    </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Om4-gE-VPg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="934" y="-442"/>
+            <point key="canvasLocation" x="-322" y="-436"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Table View Controller - Item-->
         <scene sceneID="Pq5-ZF-1P9">
             <objects>
                 <viewController storyboardIdentifier="TableViewController2" id="1R4-mf-7QI" customClass="XHTableViewController" sceneMemberID="viewController">
@@ -55,11 +59,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="H8I-Bt-MxW"/>
                     <navigationItem key="navigationItem" id="Y1a-uZ-hSr"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="News"/>
+                    </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LA9-OW-0Yp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="944" y="232"/>
+            <point key="canvasLocation" x="-312" y="238"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rXX-ot-zmj">
@@ -80,7 +88,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g2D-aY-tXW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-88" y="-67"/>
+            <point key="canvasLocation" x="-1309" y="-28"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
