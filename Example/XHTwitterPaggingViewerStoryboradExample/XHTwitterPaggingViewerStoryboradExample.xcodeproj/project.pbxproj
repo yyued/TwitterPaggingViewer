@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABCFFB27196384D500E7E72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFFB26196384D500E7E72C /* Foundation.framework */; };
+		ABCFFB29196384D500E7E72C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFFB28196384D500E7E72C /* CoreGraphics.framework */; };
+		ABCFFB2B196384D500E7E72C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFFB2A196384D500E7E72C /* UIKit.framework */; };
+		ABCFFB31196384D500E7E72C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABCFFB2F196384D500E7E72C /* InfoPlist.strings */; };
+		ABCFFB33196384D500E7E72C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB32196384D500E7E72C /* main.m */; };
+		ABCFFB37196384D500E7E72C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB36196384D500E7E72C /* AppDelegate.m */; };
+		ABCFFB3A196384D500E7E72C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCFFB38196384D500E7E72C /* Main_iPhone.storyboard */; };
+		ABCFFB3D196384D500E7E72C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCFFB3B196384D500E7E72C /* Main_iPad.storyboard */; };
+		ABCFFB42196384D600E7E72C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCFFB41196384D600E7E72C /* Images.xcassets */; };
+		ABCFFB49196384D600E7E72C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFFB48196384D600E7E72C /* XCTest.framework */; };
+		ABCFFB4A196384D600E7E72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFFB26196384D500E7E72C /* Foundation.framework */; };
+		ABCFFB4B196384D600E7E72C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFFB2A196384D500E7E72C /* UIKit.framework */; };
+		ABCFFB53196384D600E7E72C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABCFFB51196384D600E7E72C /* InfoPlist.strings */; };
+		ABCFFB55196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB54196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests.m */; };
+		ABCFFB631963851100E7E72C /* XHPaggingNavbar.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB601963851100E7E72C /* XHPaggingNavbar.m */; };
+		ABCFFB641963851100E7E72C /* XHTwitterPaggingViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB621963851100E7E72C /* XHTwitterPaggingViewer.m */; };
+		ABCFFB721963858C00E7E72C /* XHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB6D1963858C00E7E72C /* XHBaseTableViewController.m */; };
+		ABCFFB731963858C00E7E72C /* XHFoundationCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB6F1963858C00E7E72C /* XHFoundationCommon.m */; };
+		ABCFFB741963858C00E7E72C /* XHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB711963858C00E7E72C /* XHTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABCFFB4C196384D600E7E72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCFFB1B196384D500E7E72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCFFB22196384D500E7E72C;
+			remoteInfo = XHTwitterPaggingViewerStoryboradExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABCFFB23196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHTwitterPaggingViewerStoryboradExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCFFB26196384D500E7E72C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABCFFB28196384D500E7E72C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABCFFB2A196384D500E7E72C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABCFFB2E196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHTwitterPaggingViewerStoryboradExample-Info.plist"; sourceTree = "<group>"; };
+		ABCFFB30196384D500E7E72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABCFFB32196384D500E7E72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABCFFB34196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XHTwitterPaggingViewerStoryboradExample-Prefix.pch"; sourceTree = "<group>"; };
+		ABCFFB35196384D500E7E72C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABCFFB36196384D500E7E72C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABCFFB39196384D500E7E72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		ABCFFB3C196384D500E7E72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		ABCFFB41196384D600E7E72C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABCFFB47196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHTwitterPaggingViewerStoryboradExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCFFB48196384D600E7E72C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABCFFB50196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHTwitterPaggingViewerStoryboradExampleTests-Info.plist"; sourceTree = "<group>"; };
+		ABCFFB52196384D600E7E72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABCFFB54196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHTwitterPaggingViewerStoryboradExampleTests.m; sourceTree = "<group>"; };
+		ABCFFB5F1963851100E7E72C /* XHPaggingNavbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPaggingNavbar.h; sourceTree = "<group>"; };
+		ABCFFB601963851100E7E72C /* XHPaggingNavbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPaggingNavbar.m; sourceTree = "<group>"; };
+		ABCFFB611963851100E7E72C /* XHTwitterPaggingViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTwitterPaggingViewer.h; sourceTree = "<group>"; };
+		ABCFFB621963851100E7E72C /* XHTwitterPaggingViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTwitterPaggingViewer.m; sourceTree = "<group>"; };
+		ABCFFB6C1963858C00E7E72C /* XHBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBaseTableViewController.h; sourceTree = "<group>"; };
+		ABCFFB6D1963858C00E7E72C /* XHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBaseTableViewController.m; sourceTree = "<group>"; };
+		ABCFFB6E1963858C00E7E72C /* XHFoundationCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFoundationCommon.h; sourceTree = "<group>"; };
+		ABCFFB6F1963858C00E7E72C /* XHFoundationCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFoundationCommon.m; sourceTree = "<group>"; };
+		ABCFFB701963858C00E7E72C /* XHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTableViewController.h; sourceTree = "<group>"; };
+		ABCFFB711963858C00E7E72C /* XHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABCFFB20196384D500E7E72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFFB29196384D500E7E72C /* CoreGraphics.framework in Frameworks */,
+				ABCFFB2B196384D500E7E72C /* UIKit.framework in Frameworks */,
+				ABCFFB27196384D500E7E72C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFFB44196384D600E7E72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFFB49196384D600E7E72C /* XCTest.framework in Frameworks */,
+				ABCFFB4B196384D600E7E72C /* UIKit.framework in Frameworks */,
+				ABCFFB4A196384D600E7E72C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABCFFB1A196384D500E7E72C = {
+			isa = PBXGroup;
+			children = (
+				ABCFFB5E1963851100E7E72C /* XHTwitterPaggingViewer */,
+				ABCFFB2C196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample */,
+				ABCFFB4E196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests */,
+				ABCFFB25196384D500E7E72C /* Frameworks */,
+				ABCFFB24196384D500E7E72C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCFFB24196384D500E7E72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFFB23196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample.app */,
+				ABCFFB47196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABCFFB25196384D500E7E72C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFFB26196384D500E7E72C /* Foundation.framework */,
+				ABCFFB28196384D500E7E72C /* CoreGraphics.framework */,
+				ABCFFB2A196384D500E7E72C /* UIKit.framework */,
+				ABCFFB48196384D600E7E72C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABCFFB2C196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFFB35196384D500E7E72C /* AppDelegate.h */,
+				ABCFFB36196384D500E7E72C /* AppDelegate.m */,
+				ABCFFB6C1963858C00E7E72C /* XHBaseTableViewController.h */,
+				ABCFFB6D1963858C00E7E72C /* XHBaseTableViewController.m */,
+				ABCFFB6E1963858C00E7E72C /* XHFoundationCommon.h */,
+				ABCFFB6F1963858C00E7E72C /* XHFoundationCommon.m */,
+				ABCFFB701963858C00E7E72C /* XHTableViewController.h */,
+				ABCFFB711963858C00E7E72C /* XHTableViewController.m */,
+				ABCFFB38196384D500E7E72C /* Main_iPhone.storyboard */,
+				ABCFFB3B196384D500E7E72C /* Main_iPad.storyboard */,
+				ABCFFB41196384D600E7E72C /* Images.xcassets */,
+				ABCFFB2D196384D500E7E72C /* Supporting Files */,
+			);
+			path = XHTwitterPaggingViewerStoryboradExample;
+			sourceTree = "<group>";
+		};
+		ABCFFB2D196384D500E7E72C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFFB2E196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample-Info.plist */,
+				ABCFFB2F196384D500E7E72C /* InfoPlist.strings */,
+				ABCFFB32196384D500E7E72C /* main.m */,
+				ABCFFB34196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABCFFB4E196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFFB54196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests.m */,
+				ABCFFB4F196384D600E7E72C /* Supporting Files */,
+			);
+			path = XHTwitterPaggingViewerStoryboradExampleTests;
+			sourceTree = "<group>";
+		};
+		ABCFFB4F196384D600E7E72C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFFB50196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests-Info.plist */,
+				ABCFFB51196384D600E7E72C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABCFFB5E1963851100E7E72C /* XHTwitterPaggingViewer */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFFB5F1963851100E7E72C /* XHPaggingNavbar.h */,
+				ABCFFB601963851100E7E72C /* XHPaggingNavbar.m */,
+				ABCFFB611963851100E7E72C /* XHTwitterPaggingViewer.h */,
+				ABCFFB621963851100E7E72C /* XHTwitterPaggingViewer.m */,
+			);
+			name = XHTwitterPaggingViewer;
+			path = ../../XHTwitterPaggingViewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABCFFB22196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCFFB58196384D600E7E72C /* Build configuration list for PBXNativeTarget "XHTwitterPaggingViewerStoryboradExample" */;
+			buildPhases = (
+				ABCFFB1F196384D500E7E72C /* Sources */,
+				ABCFFB20196384D500E7E72C /* Frameworks */,
+				ABCFFB21196384D500E7E72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHTwitterPaggingViewerStoryboradExample;
+			productName = XHTwitterPaggingViewerStoryboradExample;
+			productReference = ABCFFB23196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABCFFB46196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCFFB5B196384D600E7E72C /* Build configuration list for PBXNativeTarget "XHTwitterPaggingViewerStoryboradExampleTests" */;
+			buildPhases = (
+				ABCFFB43196384D600E7E72C /* Sources */,
+				ABCFFB44196384D600E7E72C /* Frameworks */,
+				ABCFFB45196384D600E7E72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCFFB4D196384D600E7E72C /* PBXTargetDependency */,
+			);
+			name = XHTwitterPaggingViewerStoryboradExampleTests;
+			productName = XHTwitterPaggingViewerStoryboradExampleTests;
+			productReference = ABCFFB47196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABCFFB1B196384D500E7E72C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "曾宪华 QQ群: (142557668) QQ:543413507  Gmail:xhzengAIB@gmail.com";
+				TargetAttributes = {
+					ABCFFB46196384D600E7E72C = {
+						TestTargetID = ABCFFB22196384D500E7E72C;
+					};
+				};
+			};
+			buildConfigurationList = ABCFFB1E196384D500E7E72C /* Build configuration list for PBXProject "XHTwitterPaggingViewerStoryboradExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABCFFB1A196384D500E7E72C;
+			productRefGroup = ABCFFB24196384D500E7E72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABCFFB22196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample */,
+				ABCFFB46196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABCFFB21196384D500E7E72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFFB3D196384D500E7E72C /* Main_iPad.storyboard in Resources */,
+				ABCFFB42196384D600E7E72C /* Images.xcassets in Resources */,
+				ABCFFB3A196384D500E7E72C /* Main_iPhone.storyboard in Resources */,
+				ABCFFB31196384D500E7E72C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFFB45196384D600E7E72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFFB53196384D600E7E72C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABCFFB1F196384D500E7E72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFFB741963858C00E7E72C /* XHTableViewController.m in Sources */,
+				ABCFFB37196384D500E7E72C /* AppDelegate.m in Sources */,
+				ABCFFB731963858C00E7E72C /* XHFoundationCommon.m in Sources */,
+				ABCFFB641963851100E7E72C /* XHTwitterPaggingViewer.m in Sources */,
+				ABCFFB721963858C00E7E72C /* XHBaseTableViewController.m in Sources */,
+				ABCFFB33196384D500E7E72C /* main.m in Sources */,
+				ABCFFB631963851100E7E72C /* XHPaggingNavbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFFB43196384D600E7E72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFFB55196384D600E7E72C /* XHTwitterPaggingViewerStoryboradExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABCFFB4D196384D600E7E72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCFFB22196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample */;
+			targetProxy = ABCFFB4C196384D600E7E72C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABCFFB2F196384D500E7E72C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCFFB30196384D500E7E72C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABCFFB38196384D500E7E72C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCFFB39196384D500E7E72C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		ABCFFB3B196384D500E7E72C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCFFB3C196384D500E7E72C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		ABCFFB51196384D600E7E72C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCFFB52196384D600E7E72C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABCFFB56196384D600E7E72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABCFFB57196384D600E7E72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABCFFB59196384D600E7E72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHTwitterPaggingViewerStoryboradExample/XHTwitterPaggingViewerStoryboradExample-Prefix.pch";
+				INFOPLIST_FILE = "XHTwitterPaggingViewerStoryboradExample/XHTwitterPaggingViewerStoryboradExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABCFFB5A196384D600E7E72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHTwitterPaggingViewerStoryboradExample/XHTwitterPaggingViewerStoryboradExample-Prefix.pch";
+				INFOPLIST_FILE = "XHTwitterPaggingViewerStoryboradExample/XHTwitterPaggingViewerStoryboradExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABCFFB5C196384D600E7E72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XHTwitterPaggingViewerStoryboradExample.app/XHTwitterPaggingViewerStoryboradExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHTwitterPaggingViewerStoryboradExample/XHTwitterPaggingViewerStoryboradExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XHTwitterPaggingViewerStoryboradExampleTests/XHTwitterPaggingViewerStoryboradExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABCFFB5D196384D600E7E72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XHTwitterPaggingViewerStoryboradExample.app/XHTwitterPaggingViewerStoryboradExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XHTwitterPaggingViewerStoryboradExample/XHTwitterPaggingViewerStoryboradExample-Prefix.pch";
+				INFOPLIST_FILE = "XHTwitterPaggingViewerStoryboradExampleTests/XHTwitterPaggingViewerStoryboradExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCFFB1E196384D500E7E72C /* Build configuration list for PBXProject "XHTwitterPaggingViewerStoryboradExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCFFB56196384D600E7E72C /* Debug */,
+				ABCFFB57196384D600E7E72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCFFB58196384D600E7E72C /* Build configuration list for PBXNativeTarget "XHTwitterPaggingViewerStoryboradExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCFFB59196384D600E7E72C /* Debug */,
+				ABCFFB5A196384D600E7E72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABCFFB5B196384D600E7E72C /* Build configuration list for PBXNativeTarget "XHTwitterPaggingViewerStoryboradExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCFFB5C196384D600E7E72C /* Debug */,
+				ABCFFB5D196384D600E7E72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABCFFB1B196384D500E7E72C /* Project object */;
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABCFFB6A1963852800E7E72C /* XHPaggingNavbar.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB671963852800E7E72C /* XHPaggingNavbar.m */; };
+		ABCFFB6B1963852800E7E72C /* XHTwitterPaggingViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFFB691963852800E7E72C /* XHTwitterPaggingViewer.m */; };
 		ABFA6824195510C800335010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA6823195510C800335010 /* Foundation.framework */; };
 		ABFA6826195510C800335010 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA6825195510C800335010 /* CoreGraphics.framework */; };
 		ABFA6828195510C800335010 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA6827195510C800335010 /* UIKit.framework */; };
@@ -22,8 +24,6 @@
 		ABFA6858195510F900335010 /* XHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA6853195510F900335010 /* XHBaseTableViewController.m */; };
 		ABFA6859195510F900335010 /* XHFoundationCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA6855195510F900335010 /* XHFoundationCommon.m */; };
 		ABFA685A195510F900335010 /* XHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA6857195510F900335010 /* XHTableViewController.m */; };
-		ABFA68671955115100335010 /* XHPaggingNavbar.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA68641955115100335010 /* XHPaggingNavbar.m */; };
-		ABFA68681955115100335010 /* XHTwitterPaggingViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFA68661955115100335010 /* XHTwitterPaggingViewer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ABCFFB661963852800E7E72C /* XHPaggingNavbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPaggingNavbar.h; sourceTree = "<group>"; };
+		ABCFFB671963852800E7E72C /* XHPaggingNavbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPaggingNavbar.m; sourceTree = "<group>"; };
+		ABCFFB681963852800E7E72C /* XHTwitterPaggingViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTwitterPaggingViewer.h; sourceTree = "<group>"; };
+		ABCFFB691963852800E7E72C /* XHTwitterPaggingViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTwitterPaggingViewer.m; sourceTree = "<group>"; };
 		ABFA6820195510C800335010 /* XHTwitterPaggingViewerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHTwitterPaggingViewerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFA6823195510C800335010 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABFA6825195510C800335010 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,10 +63,6 @@
 		ABFA6855195510F900335010 /* XHFoundationCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFoundationCommon.m; sourceTree = "<group>"; };
 		ABFA6856195510F900335010 /* XHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTableViewController.h; sourceTree = "<group>"; };
 		ABFA6857195510F900335010 /* XHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTableViewController.m; sourceTree = "<group>"; };
-		ABFA68631955115100335010 /* XHPaggingNavbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPaggingNavbar.h; sourceTree = "<group>"; };
-		ABFA68641955115100335010 /* XHPaggingNavbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPaggingNavbar.m; sourceTree = "<group>"; };
-		ABFA68651955115100335010 /* XHTwitterPaggingViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTwitterPaggingViewer.h; sourceTree = "<group>"; };
-		ABFA68661955115100335010 /* XHTwitterPaggingViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTwitterPaggingViewer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +89,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABCFFB651963852800E7E72C /* XHTwitterPaggingViewer */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFFB661963852800E7E72C /* XHPaggingNavbar.h */,
+				ABCFFB671963852800E7E72C /* XHPaggingNavbar.m */,
+				ABCFFB681963852800E7E72C /* XHTwitterPaggingViewer.h */,
+				ABCFFB691963852800E7E72C /* XHTwitterPaggingViewer.m */,
+			);
+			name = XHTwitterPaggingViewer;
+			path = ../../XHTwitterPaggingViewer;
+			sourceTree = "<group>";
+		};
 		ABFA6817195510C800335010 = {
 			isa = PBXGroup;
 			children = (
-				ABFA68621955115100335010 /* XHTwitterPaggingViewer */,
+				ABCFFB651963852800E7E72C /* XHTwitterPaggingViewer */,
 				ABFA6829195510C800335010 /* XHTwitterPaggingViewerExample */,
 				ABFA6842195510C800335010 /* XHTwitterPaggingViewerExampleTests */,
 				ABFA6822195510C800335010 /* Frameworks */,
@@ -164,18 +176,6 @@
 				ABFA6845195510C800335010 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		ABFA68621955115100335010 /* XHTwitterPaggingViewer */ = {
-			isa = PBXGroup;
-			children = (
-				ABFA68631955115100335010 /* XHPaggingNavbar.h */,
-				ABFA68641955115100335010 /* XHPaggingNavbar.m */,
-				ABFA68651955115100335010 /* XHTwitterPaggingViewer.h */,
-				ABFA68661955115100335010 /* XHTwitterPaggingViewer.m */,
-			);
-			name = XHTwitterPaggingViewer;
-			path = ../XHTwitterPaggingViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,9 +280,9 @@
 				ABFA6834195510C800335010 /* AppDelegate.m in Sources */,
 				ABFA685A195510F900335010 /* XHTableViewController.m in Sources */,
 				ABFA6830195510C800335010 /* main.m in Sources */,
-				ABFA68681955115100335010 /* XHTwitterPaggingViewer.m in Sources */,
+				ABCFFB6B1963852800E7E72C /* XHTwitterPaggingViewer.m in Sources */,
 				ABFA6859195510F900335010 /* XHFoundationCommon.m in Sources */,
-				ABFA68671955115100335010 /* XHPaggingNavbar.m in Sources */,
+				ABCFFB6A1963852800E7E72C /* XHPaggingNavbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
