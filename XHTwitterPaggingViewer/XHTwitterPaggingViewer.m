@@ -48,6 +48,15 @@ typedef NS_ENUM(NSInteger, XHSlideType) {
     return self.currentPage;
 }
 
+- (void)setCurrentPage:(NSInteger)currentPage animated:(BOOL)animated {
+    self.paggingNavbar.currentPage = currentPage;
+    self.currentPage = currentPage;
+    
+    CGFloat pageWidth = CGRectGetWidth(self.paggingScrollView.frame);
+    
+    [self.paggingScrollView setContentOffset:CGPointMake(currentPage * pageWidth, 0) animated:animated];
+}
+
 - (void)reloadData {
     if (!self.viewControllers.count) {
         return;
@@ -318,10 +327,10 @@ typedef NS_ENUM(NSInteger, XHSlideType) {
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     // 得到每页宽度
-    CGFloat pageWidth = scrollView.frame.size.width;
+    CGFloat pageWidth = CGRectGetWidth(self.paggingScrollView.frame);
     
     // 根据当前的x坐标和页宽度计算出当前页数
-    self.currentPage = floor((scrollView.contentOffset.x - pageWidth/ 2) / pageWidth)+ 1;
+    self.currentPage = floor((scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
 }
 
 @end

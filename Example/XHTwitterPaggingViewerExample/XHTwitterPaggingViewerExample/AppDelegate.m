@@ -11,15 +11,20 @@
 #import "XHTwitterPaggingViewer.h"
 #import "XHTableViewController.h"
 
+@interface AppDelegate () {
+    XHTwitterPaggingViewer *twitterPaggingViewer;
+}
+
+@end
+
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    XHTwitterPaggingViewer *twitterPaggingViewer = [[XHTwitterPaggingViewer alloc] init];
+    twitterPaggingViewer = [[XHTwitterPaggingViewer alloc] init];
     
     NSMutableArray *viewControllers = [[NSMutableArray alloc] initWithCapacity:7];
     
@@ -38,10 +43,21 @@
         // NSLog(@"cuurentPage : %ld on title : %@", (long)cuurentPage, title);
     };
     
+    
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:twitterPaggingViewer];
     
     [self.window makeKeyAndVisible];
+    
+    [twitterPaggingViewer setCurrentPage:2 animated:NO];
+    
+    [self performSelector:@selector(setCurrentPage) withObject:nil afterDelay:3];
+
     return YES;
+}
+
+- (void)setCurrentPage {
+    [twitterPaggingViewer setCurrentPage:5 animated:YES];
+    [self performSelector:@selector(setCurrentPage) withObject:nil afterDelay:3];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

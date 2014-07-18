@@ -60,6 +60,14 @@ typedef void(^XHDidChangedPageBlock)(NSInteger currentPage, NSString *title);
 - (NSInteger)getCurrentPageIndex;
 
 /**
+ *  设置当前页面为你想要的页码
+ *
+ *  @param currentPage 目标页码
+ *  @param animated    是否动画的设置
+ */
+- (void)setCurrentPage:(NSInteger)currentPage animated:(BOOL)animated;
+
+/**
  *  设置控制器数据源，进行reload的方法
  */
 - (void)reloadData;
