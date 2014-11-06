@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "XHTwitterPaggingViewer.h"
+#import "DemoTwitterPaggingViewer.h"
 #import "XHTableViewController.h"
 
 @implementation AppDelegate
@@ -16,9 +16,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
     
-    XHTwitterPaggingViewer *twitterPaggingViewer = (XHTwitterPaggingViewer *)navigationController.topViewController;
+    UINavigationController *navigationController = [[(UINavigationController *)tabBarController viewControllers] firstObject];
+    
+    DemoTwitterPaggingViewer *twitterPaggingViewer = (DemoTwitterPaggingViewer *)navigationController.topViewController;
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
     

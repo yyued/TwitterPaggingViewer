@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DF456B01A0B675C0012E307 /* DemoTwitterPaggingViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF456AF1A0B675C0012E307 /* DemoTwitterPaggingViewer.m */; };
 		ABCFFB27196384D500E7E72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFFB26196384D500E7E72C /* Foundation.framework */; };
 		ABCFFB29196384D500E7E72C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFFB28196384D500E7E72C /* CoreGraphics.framework */; };
 		ABCFFB2B196384D500E7E72C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFFB2A196384D500E7E72C /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DF456AE1A0B675C0012E307 /* DemoTwitterPaggingViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTwitterPaggingViewer.h; sourceTree = "<group>"; };
+		7DF456AF1A0B675C0012E307 /* DemoTwitterPaggingViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTwitterPaggingViewer.m; sourceTree = "<group>"; };
 		ABCFFB23196384D500E7E72C /* XHTwitterPaggingViewerStoryboradExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHTwitterPaggingViewerStoryboradExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCFFB26196384D500E7E72C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABCFFB28196384D500E7E72C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -129,6 +132,8 @@
 			children = (
 				ABCFFB35196384D500E7E72C /* AppDelegate.h */,
 				ABCFFB36196384D500E7E72C /* AppDelegate.m */,
+				7DF456AE1A0B675C0012E307 /* DemoTwitterPaggingViewer.h */,
+				7DF456AF1A0B675C0012E307 /* DemoTwitterPaggingViewer.m */,
 				ABCFFB6C1963858C00E7E72C /* XHBaseTableViewController.h */,
 				ABCFFB6D1963858C00E7E72C /* XHBaseTableViewController.m */,
 				ABCFFB6E1963858C00E7E72C /* XHFoundationCommon.h */,
@@ -286,6 +291,7 @@
 				ABCFFB37196384D500E7E72C /* AppDelegate.m in Sources */,
 				ABCFFB731963858C00E7E72C /* XHFoundationCommon.m in Sources */,
 				ABCFFB641963851100E7E72C /* XHTwitterPaggingViewer.m in Sources */,
+				7DF456B01A0B675C0012E307 /* DemoTwitterPaggingViewer.m in Sources */,
 				ABCFFB721963858C00E7E72C /* XHBaseTableViewController.m in Sources */,
 				ABCFFB33196384D500E7E72C /* main.m in Sources */,
 				ABCFFB631963851100E7E72C /* XHPaggingNavbar.m in Sources */,
@@ -503,6 +509,7 @@
 				ABCFFB5A196384D600E7E72C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABCFFB5B196384D600E7E72C /* Build configuration list for PBXNativeTarget "XHTwitterPaggingViewerStoryboradExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				ABCFFB5D196384D600E7E72C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
