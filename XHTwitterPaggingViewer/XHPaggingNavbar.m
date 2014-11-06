@@ -26,7 +26,11 @@
 
 @end
 
-@implementation XHPaggingNavbar
+@implementation XHPaggingNavbar {
+    CGFloat deviceWidth;
+    CGFloat deviceHeight;
+    CGFloat deviceRatio;
+}
 
 #pragma mark - DataSource
 
@@ -40,7 +44,7 @@
     }];
     
     [self.titles enumerateObjectsUsingBlock:^(NSString *title, NSUInteger idx, BOOL *stop) {
-        CGRect titleLabelFrame = CGRectMake((idx * (kXHiPad ? 240 : 100)), 8, CGRectGetWidth(self.bounds), 20);
+        CGRect titleLabelFrame = CGRectMake((idx * (deviceWidth / deviceRatio)), 8, CGRectGetWidth(self.bounds), 20);
         UILabel *titleLabel = (UILabel *)[self viewWithTag:kXHLabelBaseTag + idx];
         if (!titleLabel) {
             titleLabel = [[UILabel alloc] init];
@@ -77,22 +81,20 @@
     
     CGFloat xOffset = contentOffset.x;
     
-    CGFloat normalWidth = CGRectGetWidth([[UIScreen mainScreen] bounds]);
-    
     [self.titleLabels enumerateObjectsUsingBlock:^(UILabel *titleLabel, NSUInteger idx, BOOL *stop) {
         if ([titleLabel isKindOfClass:[UILabel class]]) {
             
             // frame
             CGRect titleLabelFrame = titleLabel.frame;
-            titleLabelFrame.origin.x = (idx * (kXHiPad ? 240 : 100)) - xOffset / 3.2;
+            titleLabelFrame.origin.x = (idx * (deviceWidth / deviceRatio) - xOffset / deviceRatio);
             titleLabel.frame = titleLabelFrame;
             
             // alpha
             CGFloat alpha;
-            if(xOffset < normalWidth * idx) {
-                alpha = (xOffset - normalWidth * (idx - 1)) / normalWidth;
+            if(xOffset < deviceWidth * idx) {
+                alpha = (xOffset - deviceWidth * (idx - 1)) / deviceWidth;
             }else{
-                alpha = 1 - ((xOffset - normalWidth * idx) / normalWidth);
+                alpha = 1 - ((xOffset - deviceWidth * idx) / deviceWidth);
             }
             titleLabel.alpha = alpha;
         }
@@ -120,6 +122,14 @@
 }
 
 #pragma mark - Life Cycle
+
+- (void)didMoveToSuperview {
+    [super didMoveToSuperview];
+    
+    deviceHeight = CGRectGetHeight([[UIScreen mainScreen] bounds]);
+    deviceWidth = CGRectGetWidth([[UIScreen mainScreen] bounds]);
+    deviceRatio = deviceHeight / deviceWidth;
+}
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
