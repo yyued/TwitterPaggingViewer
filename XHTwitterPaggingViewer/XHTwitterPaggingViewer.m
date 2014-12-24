@@ -196,20 +196,7 @@ typedef NS_ENUM(NSInteger, XHSlideType) {
 - (void)setupNavigationBar {
     if ([self respondsToSelector:@selector(setAutomaticallyAdjustsScrollViewInsets:)]) {
         [self setAutomaticallyAdjustsScrollViewInsets:NO];
-        
-        // 设置导航条背景颜色，在iOS7才这么用
-        [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.291 green:0.607 blue:1.000 alpha:1.000]];
-        // 设置导航条的返回按钮或者系统按钮的文字颜色，在iOS7才这么用
-        [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
-        // 设置导航条的title文字颜色，在iOS7才这么用
-        [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
-                                                              [UIColor whiteColor], NSForegroundColorAttributeName, [UIFont boldSystemFontOfSize:17], NSFontAttributeName, nil]];
-
-    } else {
-        // 设置导航条的背景颜色，在iOS7以下才这么用
-        [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:0.291 green:0.607 blue:1.000 alpha:1.000]];
     }
-
     
     self.navigationItem.titleView = self.paggingNavbar;
 }
@@ -240,6 +227,7 @@ typedef NS_ENUM(NSInteger, XHSlideType) {
 #pragma mark - PanGesture Handle Method
 
 - (void)panGestureRecognizerHandle:(UIPanGestureRecognizer *)panGestureRecognizer {
+    /*
     CGPoint contentOffset = self.paggingScrollView.contentOffset;
     
     CGSize contentSize = self.paggingScrollView.contentSize;
@@ -251,17 +239,17 @@ typedef NS_ENUM(NSInteger, XHSlideType) {
             
             break;
         case UIGestureRecognizerStateChanged: {
-//            CGPoint translationPoint = [panGestureRecognizer translationInView:panGestureRecognizer.view];
+            CGPoint translationPoint = [panGestureRecognizer translationInView:panGestureRecognizer.view];
             if (contentOffset.x <= 0) {
                 // 滑动到最左边
                 
-//                CGRect centerContainerViewFrame = self.centerContainerView.frame;
-//                centerContainerViewFrame.origin.x += translationPoint.x;
-//                self.centerContainerView.frame = centerContainerViewFrame;
-//                
-//                CGRect leftMenuViewFrame = self.leftViewController.view.frame;
-//                leftMenuViewFrame.origin.x += translationPoint.x;
-//                self.leftViewController.view.frame = leftMenuViewFrame;
+                CGRect centerContainerViewFrame = self.centerContainerView.frame;
+                centerContainerViewFrame.origin.x += translationPoint.x;
+                self.centerContainerView.frame = centerContainerViewFrame;
+                
+                CGRect leftMenuViewFrame = self.leftViewController.view.frame;
+                leftMenuViewFrame.origin.x += translationPoint.x;
+                self.leftViewController.view.frame = leftMenuViewFrame;
                 
                 [panGestureRecognizer setTranslation:CGPointZero inView:panGestureRecognizer.view];
             } else if (contentOffset.x >= contentSize.width - baseWidth) {
@@ -279,6 +267,7 @@ typedef NS_ENUM(NSInteger, XHSlideType) {
         default:
             break;
     }
+     */
 }
 
 #pragma mark - Block Call Back Method

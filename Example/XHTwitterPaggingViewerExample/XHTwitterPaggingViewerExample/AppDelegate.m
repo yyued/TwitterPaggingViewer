@@ -19,10 +19,31 @@
 
 @implementation AppDelegate
 
+- (void)setupNavigationBarStyle {
+    
+    UINavigationBar *appearance = [UINavigationBar appearance];
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
+        
+        // 设置导航条背景颜色，在iOS7才这么用
+        [appearance setBarTintColor:[UIColor colorWithRed:0.291 green:0.607 blue:1.000 alpha:1.000]];
+        // 设置导航条的返回按钮或者系统按钮的文字颜色，在iOS7才这么用
+        [appearance setTintColor:[UIColor whiteColor]];
+        // 设置导航条的title文字颜色，在iOS7才这么用
+        [appearance setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                              [UIColor whiteColor], NSForegroundColorAttributeName, [UIFont systemFontOfSize:17], NSFontAttributeName, nil]];
+        
+    } else {
+        // 设置导航条的背景颜色，在iOS7以下才这么用
+        [appearance setTintColor:[UIColor colorWithRed:0.291 green:0.607 blue:1.000 alpha:1.000]];
+    }
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self setupNavigationBarStyle];
     
     twitterPaggingViewer = [[XHTwitterPaggingViewer alloc] init];
     
@@ -40,24 +61,15 @@
     twitterPaggingViewer.viewControllers = viewControllers;
     
     twitterPaggingViewer.didChangedPageCompleted = ^(NSInteger cuurentPage, NSString *title) {
-        // NSLog(@"cuurentPage : %ld on title : %@", (long)cuurentPage, title);
+        NSLog(@"cuurentPage : %ld on title : %@", (long)cuurentPage, title);
     };
-    
     
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:twitterPaggingViewer];
     
+    
     [self.window makeKeyAndVisible];
     
-    [twitterPaggingViewer setCurrentPage:2 animated:NO];
-    
-    [self performSelector:@selector(setCurrentPage) withObject:nil afterDelay:3];
-
     return YES;
-}
-
-- (void)setCurrentPage {
-    [twitterPaggingViewer setCurrentPage:5 animated:YES];
-    [self performSelector:@selector(setCurrentPage) withObject:nil afterDelay:3];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

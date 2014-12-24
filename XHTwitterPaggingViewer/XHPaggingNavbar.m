@@ -12,7 +12,11 @@
 
 #define kXHLabelBaseTag 1000
 
-@interface XHPaggingNavbar ()
+@interface XHPaggingNavbar () {
+    CGFloat deviceWidth;
+    CGFloat deviceHeight;
+    CGFloat deviceRatio;
+}
 
 /**
  *  分页指示器
@@ -26,11 +30,7 @@
 
 @end
 
-@implementation XHPaggingNavbar {
-    CGFloat deviceWidth;
-    CGFloat deviceHeight;
-    CGFloat deviceRatio;
-}
+@implementation XHPaggingNavbar
 
 #pragma mark - DataSource
 
@@ -53,9 +53,9 @@
         }
         titleLabel.hidden = NO;
         titleLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
-        titleLabel.font = [UIFont boldSystemFontOfSize:17];
+        titleLabel.font = [[UINavigationBar appearance].titleTextAttributes objectForKey:NSFontAttributeName];
         titleLabel.textAlignment = NSTextAlignmentCenter;
-        titleLabel.textColor = [UIColor whiteColor];
+        titleLabel.textColor = [UINavigationBar appearance].tintColor;
         titleLabel.backgroundColor = [UIColor clearColor];
         titleLabel.text = title;
         titleLabel.frame = titleLabelFrame;
